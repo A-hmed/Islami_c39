@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Islami_c39"
         tools:targetApi="31">
         <activity
+            android:name=".ui.screens.ahadeth_details.AhadethDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.screens.sura_details.SuraDetailsActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.screens.home.HomeActivity"
             android:exported="false" />
         <activity
